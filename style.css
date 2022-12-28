@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 52px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav a {
+    text-decoration: none;
+    color: #212121;
+    padding: 13px;
+    font-size: 14px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.logo img {
+    height: 150px;
+}
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 506px;
+}
+form {
+    display: flex;
+    border: 1px solid #a7a7a7;
+    border-radius: 28px;
+    margin-bottom: 40px;
+}
+#lupa {
+    display: flex;
+    align-items: center;
+    color: gray;
+    font-size: 23px;
+    padding: 10px;
+}
+form input {
+    width: 472px;
+    height: 42px;
+    border: none;
+    outline: 0px;
+}
+form:hover {
+    box-shadow: 1px 0px 7px 0px rgba(0, 0, 0, 0.336);
+}
+.icones {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.icones span {
+    padding: 5px;
+}
+.pesquisa {
+    display: flex;
+    justify-content: center;
+}
+.pesquisa a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #F8F9FA;
+    color: black;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.pesquisa a:hover {
+    border: 1px solid rgb(180, 180, 180);
+}
+.pesquisa_1 {
+    margin-right: 10px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+}
+.termos {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+    padding: 15px;
+}
+.termos ul {
+    display: flex;
+    list-style: none;
+}
+.br {
+    background-color: #F2F2F2;
+    padding: 15px;
+    color: gray;
+    font-size: 15px;
+}
+.termos a {
+    text-decoration: none;
+    padding: 10px;
+    color: gray;
+    font-size: 15px;
+}
+.termos a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        margin-bottom: 23px;
+    }
+    form input {
+        width: 217px;
+        height: 25px;
+    }
+    form {
+        height: 25px;
+        margin-bottom: 20px;
+        border-color: #e7e7e7;
+    }
+    .logo img {
+        height: 125px;
+        margin-bottom: 10px;
+    }
+    #lupa {
+        font-size: 15px;
+    }
+    .icones span {
+        font-size: 18px;
+    }
+    nav a {
+        padding: 5px;
+        font-size: 9px;
+    }
+    .material-symbols-outlined {
+        font-size: 21px;
+    }
+    .pesquisa a {
+        font-size: 9px;
+    }
+    .br {
+        font-size: 10px;
+        padding: 9px;
+    }
+    .termos a {
+        padding: 11px;
+        font-size: 10px;
+    }
+    .termos {
+        padding: 5px;
+        flex-direction: column;
+        align-items: center;
+    }
+    section {
+        height: 372px;
+    }
+}
