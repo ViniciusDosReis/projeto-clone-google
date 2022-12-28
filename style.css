@@ -116,11 +116,11 @@ footer {
         margin-bottom: 23px;
     }
     form input {
-        width: 217px;
-        height: 25px;
+        width: 254px;
+        height: 45px;
     }
     form {
-        height: 25px;
+        height: 45px;
         margin-bottom: 20px;
         border-color: #e7e7e7;
     }
@@ -158,6 +158,6 @@ footer {
         align-items: center;
     }
     section {
-        height: 551px;
+        height: 630px;
     }
 }
