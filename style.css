@@ -125,7 +125,7 @@ footer {
         border-color: #e7e7e7;
     }
     .logo img {
-        height: 125px;
+        height: 150px;
         margin-bottom: 10px;
     }
     #lupa {
@@ -158,6 +158,6 @@ footer {
         align-items: center;
     }
     section {
-        height: 372px;
+        height: 551px;
     }
 }
